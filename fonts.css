@@ -1,0 +1,75 @@
+* {
+    text-transform: uppercase;
+    font-family: LEMONMILK Regular !important;
+}
+/* Bold 
+    700 */
+@font-face {
+    font-family: LEMONMILK Bold;
+    src: url(./lemon_milkFont/LEMONMILK-Bold.otf);
+}
+.LEMONMILK-Bold {
+    font-family: LEMONMILK Bold !important;
+}
+
+@font-face {
+    font-family: LEMONMILK Bold Italic;
+    src: url(./lemon_milkFont/LEMONMILK-BoldItalic.otf);
+}
+.LEMONMILK-BoldItalic {
+    font-family: LEMONMILK Bold Italic !important;
+}
+
+/* Medium
+    500 */
+@font-face {
+    font-family: LEMONMILK Medium;
+    src: url(./lemon_milkFont/LEMONMILK-Medium.otf);
+}
+.LEMONMILK-Medium {
+    font-family: LEMONMILK Medium !important;
+}
+
+@font-face {
+    font-family: LEMONMILK Medium Italic;
+    src: url(./lemon_milkFont/LEMONMILK-MediumItalic.otf);
+}
+.LEMONMILK-MediumItalic {
+    font-family: LEMONMILK Medium Italic !important;
+}
+
+/* Regular
+    400 */
+@font-face {
+    font-family: LEMONMILK Regular;
+    src: url(./lemon_milkFont/LEMONMILK-Regular.otf);
+}
+.LEMONMILK-Regular {
+    font-family: LEMONMILK Regular !important;
+}
+
+@font-face {
+    font-family: LEMONMILK Regular Italic;
+    src: url(./lemon_milkFont/LEMONMILK-RegularItalic.otf);
+}
+.LEMONMILK-RegularItalic {
+    font-family: LEMONMILK Regular Italic !important;
+}
+
+/* Light
+    300 */
+@font-face {
+    font-family: LEMONMILK Light;
+    src: url(./lemon_milkFont/LEMONMILK-Light.otf);
+}
+.LEMONMILK-Light {
+    font-family: LEMONMILK Light !important;
+}
+
+@font-face {
+    font-family: LEMONMILK Light Italic;
+    src: url(./lemon_milkFont/LEMONMILK-LightItalic.otf);
+}
+.LEMONMILK-LightItalic {
+    font-family: LEMONMILK Light Italic !important;
+}

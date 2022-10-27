@@ -1,0 +1,203 @@
+.Base-backgroound {
+    background: url("./img/Base-background.png");
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+
+    
+/* Navbar */
+.Navbar ul {
+    display: flex;
+    justify-content: center;
+    column-gap: 32px;
+    line-height: 100px;
+}
+
+.nav-item {
+    list-style: none;
+}
+ 
+.header-link {
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right, #DA329A, #3466A9);
+    border-image-slice: 1;
+    color: white !important;
+}
+.navbar__picture {
+    margin-top: 15px;
+    height: 100%;
+}
+.nav-item a {
+    color: rgba(255, 255, 255, 0.85);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav-item__link {
+    font-family: LEMONMILK Light !important;
+}
+.nav-item__link-no {
+    font-family: LEMONMILK Light !important; 
+}
+.nav-item__link:hover {
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right, #DA329A, #3466A9);
+    border-image-slice: 1;
+    color: white;
+}
+.nav-item__link-no:hover {
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right, #3466A9, #DA329A);
+    border-image-slice: 1;
+    color: white;
+}
+.nav-item img {
+    margin-bottom: 6px !important;
+}
+.nav-item select {
+    background: transparent !important;
+    border: none !important;
+    color: rgba(255, 255, 255, 0.85);
+}
+.nav-item select:hover {
+    color: white;
+}
+
+/* Home First Section */
+.firstSection {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 30px !important;
+}
+.firstSection-lelfHalf {
+    margin-top: 180px !important;
+}
+.firstSection__HeaderText {
+    font-weight: 600;
+    color: white;
+    font-size: 54px;
+    text-transform: uppercase;
+    line-height: 70px;
+    font-family: LEMONMILK Light !important;
+}
+.firstSection__Text-belowHeaderText {
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 32px;
+    font-family: LEMONMILK Light !important;
+} 
+.firstSection__button-first {
+    height: 75px;
+    width: 225px;
+    border-radius: 75px;
+    background: linear-gradient(to right, #3466A9, #901662);
+    border: none;
+}
+.firstSection__button-first a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.firstSection__button-second a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.Home-firstSection-form {
+    display: flex;
+    font-family: LEMONMILK Light;
+}
+.Home-firstSection-form img {
+    height: 100%;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.Home-firstSection-form__input {            
+  width: 100%;
+  height: 30px;
+  padding-left: 10px;
+  border-left: 1px solid rgba(255, 255, 255, 0.4) !important;
+  border: none;
+  font-size: 16px;
+  background-color: transparent;
+  font-family: LEMONMILK Light;
+}
+/* swiper */
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    border-radius: 45px;
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.swiper-pagination {
+    position: initial !important;
+}
+.swiper-button-next {
+    background: rgba(255, 255, 255, 0.8);
+    color: red !important;
+    height: 60px !important;
+    width: 60px !important;
+    border-radius: 50px;
+}
+.swiper-button-next::after {
+    font-size: 30px!important
+}
+.swiper-button-prev {
+    background: rgba(255, 255, 255, 0.8);
+    color: red !important;
+    height: 60px !important;
+    width: 60px !important;
+    border-radius: 50px;
+}
+.swiper-button-prev::after {
+    font-size: 30px!important
+}
+.swiper-button-next:hover {
+    background: white;
+}
+.swiper-button-prev:hover {
+    background: white;
+}
+.swiper-pagination-bullet-active {
+    background: red !important;
+}

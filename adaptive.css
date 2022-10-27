@@ -1,0 +1,83 @@
+/* From 0px to 320px or to infinity */
+
+@media (min-width: 0px) {
+    .container {
+        padding: 0 15px;
+    }
+}
+
+
+/* From 320px to 576px or to infinity */
+
+@media (min-width: 319.98px) {
+    .container {
+        max-width: 290px;
+        margin: auto;
+        padding: 0;
+    }
+}
+
+
+/* From 576px to 768px or to infinity */
+
+@media (min-width: 575.98px) {
+    .container {
+        max-width: 540px;
+        margin: auto;
+        padding: 0;
+    }
+}
+
+
+/* From 768px to 992px or to infinity */
+
+@media (min-width: 767.98px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+
+/* From 992px to 1200px or to infinity */
+
+@media (min-width: 991.98px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+
+/* From 1200px to 1440px or to infinity */
+
+@media (min-width: 1199.98px) {
+    .container {
+        max-width: 1140px;
+    }
+    .Home-FirstSection__img {
+        width: 550px;
+
+    }
+}
+
+
+/* From 1440px to 1920px or to infinity 
+  Full HD
+  */
+
+@media (min-width: 1439.98px) {
+    .container {
+        max-width: 1330px;
+    }
+    .Home-FirstSection__img {
+        width: 700px;
+    }
+}
+/* From 1920px to infinity */
+@media (min-width: 1919.98px) {
+    .container {
+        max-width: 1400px;
+    }
+    .Home-FirstSection__img {
+        width: 788px;
+    }
+}
